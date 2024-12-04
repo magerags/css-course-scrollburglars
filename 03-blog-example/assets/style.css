@@ -6,6 +6,10 @@
   line-height: 1.5;
 }
 
+html {
+  overflow-x: clip;
+}
+
 h1 {
   font-size: clamp(1.75rem, 3vw + 1rem, 3rem);
   font-weight: bold;
